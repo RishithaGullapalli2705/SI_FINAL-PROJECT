@@ -14,23 +14,6 @@ Azure AI Language API provides sentiment analysis capabilities, allowing you to 
 
 https://learn.microsoft.com/en-us/javascript/api/overview/azure/ai-language-text-readme?view=azure-node-latest
 
-## Getting Started
-### Prerequisites
-
-Before Using the Sentiment Analysis API, ensure the following:
-•	Microsoft Azure subscription: Sign up to the Microsoft Azure portal, obtain the subscription key and endpoint from the portal.
-•	Nodejs: Ensure you have nodejs installed to make API requests.
-
-### API Key and Endpoint
-
-•	Sign in to the [Azure AI Portal](https://azure.microsoft.com/en-us/products/ai-services/ai-language)
-
-•	Navigate to the “AI + Machine Learning” section.
-
-•	Create the appropriate resource for the language API.
-
-•	Obtain the subscription key and endpoint.
-
 ## Service Capabilities
 
 This service analyzes the sentiment of provided text data and categorizes it into positive, negative, or neutral sentiments.
@@ -65,8 +48,8 @@ Before sending a request to the Sentiment Analysis API, ensure that the data pro
   	
          •	text: The text data to be analyzed for sentiment. This should be a string of text.
   	
-4.	**Language**: Ensure that the language specified for each document is supported by the Sentiment Analysis API. Refer to 
-      the API documentation for a list of supported languages.
+4.	**Language**: Ensure that the language specified for each document is supported by the Sentiment Analysis API. Refer 
+       to the API documentation for a list of supported languages.
 5.	**Text Length**: There may be limitations on the length of text that can be analyzed in a single request. Ensure that 
       the text data provided for analysis does not exceed any specified limits.
 6.	**Character Encoding**: Text data should be encoded using UTF-8 or another compatible character encoding to ensure 
@@ -83,8 +66,9 @@ To validate the API, I used Postman.
 I have verified by giving an empty string:
 
 
+![Screenshot 2024-05-02 183815](https://github.com/RishithaGullapalli2705/SI_FINAL-PROJECT/assets/143982076/fa0d2305-7d6f-4b1c-b010-16348e7fed17)
 
-
+![Screenshot 2024-05-02 183857](https://github.com/RishithaGullapalli2705/SI_FINAL-PROJECT/assets/143982076/a1326d98-6239-4fd9-92f8-c9e878ec2552)
 
 
 I have verified by giving the string:
