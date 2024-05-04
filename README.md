@@ -6,13 +6,10 @@ The sentiment analysis feature provides sentiment labels (such as "negative", "n
 
 Azure AI Language API provides sentiment analysis capabilities, allowing you to analyze text data and determine the sentiment expressed in it. This can be particularly useful for understanding the overall sentiment of customer reviews, social media posts, and other types of text data. This README file provides a guide on how to use the Sentiment Analysis API, obtain API keys, and integrate it into your applications.
 
-**Note**: This SDK targets Azure Cognitive Service for Language API version 2023-04-01.
-
-**ref**: https://learn.microsoft.com/en-us/azure/architecture/example-scenario/ai/nifi-sentiment-analysis-face-recognition
+**ref**: https://learn.microsoft.com/en-us/javascript/api/overview/azure/ai-language-text-readme?view=azure-node-latest
 
 **ref**: https://learn.microsoft.com/en-us/azure/ai-services/language-service/sentiment-opinion-mining/how-to/call-api
 
-https://learn.microsoft.com/en-us/javascript/api/overview/azure/ai-language-text-readme?view=azure-node-latest
 
 ## Service Capabilities
 
